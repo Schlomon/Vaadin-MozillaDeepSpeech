@@ -1,5 +1,5 @@
 # Vaadin with Mozilla DeepSpeech
-This is an example poject of integrating Mozilla DeepSpeech into Vaadin 14 LTS:
+This is an example poject of integrating Mozilla DeepSpeech into a Vaadin 14 LTS project:
 
 * [Vaadin](https://vaadin.com/)
 * [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech)
