@@ -6,13 +6,14 @@ import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.component.notification.Notification;
+import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.PWA;
 
 /**
- * The main view contains a button and a click listener.
+ * The main view contains two buttons and a speech recognizer
  */
 @Route("")
 @CssImport("./styles/shared-styles.css")
@@ -21,7 +22,20 @@ import com.vaadin.flow.server.PWA;
 @NpmPackage(value = "fs", version = "latest")
 public class MainView extends VerticalLayout {
 
-    public MainView() {
+    private SpeechRecognizer speechRecognizer;
 
+    public MainView() {
+        speechRecognizer = new SpeechRecognizer();
+
+        // Do your result handling here
+        speechRecognizer.addSpeechRecognitionListener(Notification::show);
+
+        HorizontalLayout horizontalLayout = new HorizontalLayout();
+        horizontalLayout.add(new Button("Start Recording", buttonClickEvent -> speechRecognizer.startRecognition()));
+        horizontalLayout.add(new Button("Stop Recording", buttonClickEvent -> speechRecognizer.stopRecognition()));
+
+        this.add(horizontalLayout);
+
+        this.add(speechRecognizer);
     }
 }
