@@ -15,6 +15,7 @@ import com.vaadin.flow.router.Route;
 @CssImport("./styles/shared-styles.css")
 @CssImport(value = "./styles/vaadin-text-field-styles.css", themeFor = "vaadin-text-field")
 @NpmPackage(value = "socket.io", version = "2.3.0")
+@NpmPackage(value = "socket.io-client", version = "2.3.0")
 @NpmPackage(value = "fs", version = "latest")
 public class MainView extends VerticalLayout {
 

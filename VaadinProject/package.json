@@ -11,7 +11,8 @@
     "fund": "^1.0.0",
     "socket.io": "^2.3.0",
     "utf-8-validate": "^5.0.2",
-    "uws": "^100.0.1"
+    "uws": "^100.0.1",
+    "socket.io-client": "^2.3.0"
   },
   "devDependencies": {
     "webpack": "4.42.0",
@@ -24,5 +25,5 @@
     "compression-webpack-plugin": "3.0.1",
     "terser": "4.6.7"
   },
-  "vaadinAppPackageHash": "7d20c24931d759e502476c14a5359059bbb7b955c8df73a39ca0a5ecfbd1f47a"
+  "vaadinAppPackageHash": "b4024afa0361a5ab6a17be72ab3b96f6f8c42964b4dccbb699f8376048ad75cc"
 }
