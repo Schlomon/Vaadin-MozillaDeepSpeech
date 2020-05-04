@@ -40,3 +40,7 @@ Open the pom.xml file in [IntelliJ IDEA](https://www.jetbrains.com/idea/), [Netb
 Run the maven goal jetty:run.
 
 For further information about how to run a Vaadin project please visit the [Vaadin website](https://vaadin.com/start/v14).
+
+
+
+*Note: the actual recognition is done by the node.js server. It might be better to make the recognition itself in Java, which would lower bandwidth usage and latency. Right now I have neither enough interest nor enough time for doing this. But i would be glad to link to such a project or even making a pr to the [repository](https://github.com/Schlomon/Vaadin-MozillaDeepSpeech).*
