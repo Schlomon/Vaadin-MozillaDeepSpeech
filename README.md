@@ -20,7 +20,7 @@ yarn install
 Don't run the server now, we still need the models:
 
 ### Download the pre-trained model from Mozilla (1.8GB):
-Still in NodeJsServer folder:
+Downloading and extracting the model
 ```
 wget https://github.com/mozilla/DeepSpeech/releases/download/v0.6.0/deepspeech-0.6.0-models.tar.gz
 tar xvfz deepspeech-0.6.0-models.tar.gz
