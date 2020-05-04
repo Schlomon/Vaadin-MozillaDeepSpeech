@@ -39,7 +39,7 @@ Open the pom.xml file in [IntelliJ IDEA](https://www.jetbrains.com/idea/), [Netb
 
 Run the maven goal jetty:run.
 
-For further information about how to run a Vaadin project please visit the [Vaadin website](https://vaadin.com/start/v14).
+For further information about how to run a Vaadin project please visit the [Vaadin website](https://vaadin.com/start/).
 
 
 
