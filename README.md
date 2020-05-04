@@ -1,8 +1,7 @@
 # Vaadin with Mozilla DeepSpeech
-This is an example poject of integrating Mozilla DeepSpeech into a Vaadin 14 LTS project:
+This is the node.js Server only, copied directly from:
 
-* [Vaadin](https://vaadin.com/)
-* [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech)
+* [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech-examples/tree/r0.7/web_microphone_websocket)
 
 ## Installation instructions
 
@@ -10,12 +9,12 @@ This is an example poject of integrating Mozilla DeepSpeech into a Vaadin 14 LTS
 ```
 git clone https://github.com/Schlomon/Vaadin-MozillaDeepSpeech.git
 cd Vaadin-MozillaDeepSpeech
+git checkout nodeJsServerOnly
 ```
 
 ### Install dependencies for the Node.js server:
 If you don't have yarn please visit the [yarn website](https://yarnpkg.com/getting-started/install) for more information.
 ```
-cd NodeJsServer
 yarn install
 ```
 Don't run the server now, we still need the models:
@@ -31,12 +30,3 @@ tar xvfz deepspeech-0.6.0-models.tar.gz
 ```
 node server.js
 ```
-
-### Get Vaadin up and running:
-Go to the VaadinProject folder.
-
-Open the pom.xml file in [IntelliJ IDEA](https://www.jetbrains.com/idea/), [Netbeans](https://netbeans.org/), [Eclips](https://www.eclipse.org/).
-
-Run the maven goal jetty:run.
-
-For further information about how to run a Vaadin project please visit the [Vaadin website](https://vaadin.com/start/v14).
