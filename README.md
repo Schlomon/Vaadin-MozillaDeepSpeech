@@ -30,3 +30,5 @@ tar xvfz deepspeech-0.6.0-models.tar.gz
 ```
 node server.js
 ```
+
+Note: the actual recognition is done by this node.js server. It might be better to make the recognition itself in Java, which would lower bandwidth usage and latency. However, right now I have neither enough time nor enough interest for doing so. But i would be glad to link to such a project or even making a pr to the repository.
