@@ -43,4 +43,4 @@ For further information about how to run a Vaadin project please visit the [Vaad
 
 
 
-*Note: the actual recognition is done by the node.js server. It might be better to make the recognition itself in Java, which would lower bandwidth usage and latency. Right now I have neither enough interest nor enough time for doing this. But i would be glad to link to such a project or even making a pr to the [repository](https://github.com/Schlomon/Vaadin-MozillaDeepSpeech).*
+*Note: the actual recognition is done by the node.js server. It might be better to make the recognition itself in Java, which would lower bandwidth usage and latency. However, right now I have neither enough time nor enough interest for doing so. But i would be glad to link to such a project or even making a pr to the [repository](https://github.com/Schlomon/Vaadin-MozillaDeepSpeech).*
