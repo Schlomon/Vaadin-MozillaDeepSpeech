@@ -9,8 +9,6 @@ import com.vaadin.flow.component.html.Div;
 import java.util.ArrayList;
 
 @JsModule("./js/recorder.js")
-@NpmPackage(value = "socket.io",
-        version = "2.3.0")
 public class SpeechRecognizer extends Div {
 
     public ArrayList<OnSpeechRecognizedListener> speechRecognitionListeners = new ArrayList();
