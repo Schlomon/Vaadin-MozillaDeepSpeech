@@ -3,7 +3,7 @@
 
     <groupId>de.sh.vaadindeepspeech</groupId>
     <artifactId>vaadin-deep-speech</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>Vaadin Deep Speech</name>
     <description>Integration of paper-slider for Vaadin platform</description>
 
