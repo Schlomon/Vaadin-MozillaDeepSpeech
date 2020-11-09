@@ -35,8 +35,6 @@ node server.js
 ### Get Vaadin up and running:
 Go to the VaadinProject folder.
 
-Open the pom.xml file in [IntelliJ IDEA](https://www.jetbrains.com/idea/), [Netbeans](https://netbeans.org/), [Eclips](https://www.eclipse.org/).
-
 Run the maven goal jetty:run.
 
 For further information about how to run a Vaadin project please visit the [Vaadin website](https://vaadin.com/start/).
